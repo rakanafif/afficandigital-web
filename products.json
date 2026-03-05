@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": "tpl-30",
+      "category": "templates",
+      "price": 15,
+      "image": "https://images.unsplash.com/photo-1526481280695-3c687fd5432c?auto=format&fit=crop&w=1400&q=70",
+      "title": { "fr": "Pack Templates Instagram (30)", "en": "Instagram Templates Pack (30)", "ar": "بكج قوالب إنستغرام (30)" },
+      "instant": { "fr": "Livraison instantanée", "en": "Instant delivery", "ar": "تسليم فوري" }
+    },
+    {
+      "id": "lut-cine",
+      "category": "luts",
+      "price": 19,
+      "image": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=1400&q=70",
+      "title": { "fr": "Pack LUT Cinématique", "en": "Cinematic LUT Pack", "ar": "بكج LUT سينمائي" },
+      "instant": { "fr": "Livraison instantanée", "en": "Instant delivery", "ar": "تسليم فوري" }
+    },
+    {
+      "id": "mkt-kit",
+      "category": "marketing",
+      "price": 25,
+      "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1400&q=70",
+      "title": { "fr": "Kit Marketing (Textes + Visuels)", "en": "Marketing Kit (Texts + Visuals)", "ar": "عدة تسويق (نصوص + تصاميم)" },
+      "instant": { "fr": "Livraison instantanée", "en": "Instant delivery", "ar": "تسليم فوري" }
+    },
+    {
+      "id": "lp-structure",
+      "category": "web",
+      "price": 29,
+      "image": "https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?auto=format&fit=crop&w=1400&q=70",
+      "title": { "fr": "Landing Page (Design + Structure)", "en": "Landing Page (Design + Structure)", "ar": "Landing Page (تصميم + هيكلة)" },
+      "instant": { "fr": "Livraison instantanée", "en": "Instant delivery", "ar": "تسليم فوري" }
+    }
+  ]
+}

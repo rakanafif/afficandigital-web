@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Affican Digital • Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Noto+Sans+Arabic:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <canvas id="bg3d" aria-hidden="true"></canvas>
+
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="./index.html">
+        <img class="brand-logo" src="./assets/logo.png" alt="Logo" onerror="this.style.display='none'">
+        <div class="brand-text">
+          <b>Affican Digital</b>
+          <span data-i18n="taglineSmall">Marketing • Web • Video</span>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <a href="./services.html" data-i18n="navServices">Services</a>
+        <a href="./store.html" data-i18n="navStore">Boutique</a>
+        <a href="./threads.html" data-i18n="navThreads">Fils</a>
+        <a class="active" href="./contact.html" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <div class="controls">
+        <div class="lang">
+          <button id="btnFR" class="active" type="button">FR</button>
+          <button id="btnEN" type="button">EN</button>
+          <button id="btnAR" type="button">AR</button>
+        </div>
+        <a class="cta" href="#" id="heroWhatsAppTop" target="_blank" rel="noopener"><span class="dot"></span><span data-i18n="heroBtn1">Contact WhatsApp</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-head">
+      <h1 data-i18n="contactPageTitle">Contact</h1>
+      <p data-i18n="contactPageDesc">إرسل رسالة أو تواصل مباشرة عبر واتساب.</p>
+    </section>
+
+    <section class="section">
+      <div class="contact-grid">
+        <div class="panel">
+          <h2 data-i18n="contactInfoTitle">Coordonnées</h2>
+          <p><b data-i18n="phoneLbl">WhatsApp</b>: +213 542 961 475</p>
+          <p><b data-i18n="emailLbl">Email</b>: rakandz004@gmail.com</p>
+          <div class="row-actions">
+            <a class="btn" id="contactWhatsApp" href="#" target="_blank" rel="noopener"><span data-i18n="whatsBtn">Ouvrir WhatsApp</span></a>
+            <a class="btn secondary" href="./services.html"><span data-i18n="backToServices">Retour services</span></a>
+          </div>
+          <p class="note" data-i18n="contactNote">Version PRO: formulaire + SMTP لضمان وصول الرسائل.</p>
+        </div>
+
+        <div class="panel">
+          <h2 data-i18n="contactFormTitle">Envoyer un message</h2>
+          <form onsubmit="sendMail(event)">
+            <div class="form-row">
+              <input id="name" required placeholder="Nom" />
+              <input id="subject" required placeholder="Sujet" />
+            </div>
+            <textarea id="message" required placeholder="Votre message..."></textarea>
+            <div class="row-actions">
+              <button class="btn" type="submit"><span data-i18n="sendBtn">Envoyer</span></button>
+              <span class="note" data-i18n="mailNote">S’ouvrira dans votre application email.</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="wrap">
+        <div>© <span id="year"></span> <b>Affican Digital</b> — <span data-i18n="footer">Tous droits réservés.</span></div>
+      </div>
+    </footer>
+  </main>
+
+  <a class="wa-float" id="waFloat" href="#" target="_blank" rel="noopener">
+    <span class="wa-badge">WA</span>
+    <div class="wa-text">
+      <b data-i18n="waTitle">WhatsApp</b>
+      <small data-i18n="waSub">Réponse rapide</small>
+    </div>
+  </a>
+
+  <script src="./js/i18n.js"></script>
+  <script src="./js/app.js"></script>
+  <script src="./js/three-bg.js"></script>
+</body>
+</html>

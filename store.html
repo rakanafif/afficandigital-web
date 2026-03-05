@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Affican Digital • Boutique</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Noto+Sans+Arabic:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <canvas id="bg3d" aria-hidden="true"></canvas>
+
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="./index.html">
+        <img class="brand-logo" src="./assets/logo.png" alt="Logo" onerror="this.style.display='none'">
+        <div class="brand-text">
+          <b>Affican Digital</b>
+          <span data-i18n="taglineSmall">Marketing • Web • Video</span>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <a href="./services.html" data-i18n="navServices">Services</a>
+        <a class="active" href="./store.html" data-i18n="navStore">Boutique</a>
+        <a href="./threads.html" data-i18n="navThreads">Fils</a>
+        <a href="./contact.html" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <div class="controls">
+        <div class="lang">
+          <button id="btnFR" class="active" type="button">FR</button>
+          <button id="btnEN" type="button">EN</button>
+          <button id="btnAR" type="button">AR</button>
+        </div>
+        <button class="cart-btn" type="button" onclick="toggleCart()">
+          🛒 <span data-i18n="cart">Panier</span> (<span id="cartCount">0</span>)
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-head">
+      <h1 data-i18n="storePageTitle">Boutique digitale</h1>
+      <p data-i18n="storePageDesc">واجهة متجر كاملة. الدفع/التحميل الحقيقي يتم تفعيله لاحقًا عبر WooCommerce أو Stripe/Snipcart.</p>
+    </section>
+
+    <section class="section">
+      <div class="filters">
+        <input id="search" class="search" type="search" placeholder="Search..." oninput="renderStore()">
+        <select id="cat" class="select" onchange="renderStore()">
+          <option value="all" data-i18n="all">All</option>
+          <option value="templates">Templates</option>
+          <option value="luts">LUTs</option>
+          <option value="marketing">Marketing</option>
+          <option value="web">Web</option>
+        </select>
+      </div>
+      <div id="productsGrid" class="grid"></div>
+    </section>
+
+    <footer class="footer">
+      <div class="wrap">
+        <div>© <span id="year"></span> <b>Affican Digital</b> — <span data-i18n="footer">Tous droits réservés.</span></div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Cart Drawer -->
+  <aside class="drawer" id="cartDrawer">
+    <div class="drawer-head">
+      <b data-i18n="cartTitle">Panier</b>
+      <button class="x" type="button" onclick="toggleCart()">×</button>
+    </div>
+    <div class="drawer-body">
+      <div id="cartItems"></div>
+      <div class="cart-total">
+        <span data-i18n="total">Total</span>
+        <b id="cartTotal">0</b>
+      </div>
+      <div class="cart-actions">
+        <button class="btn" type="button" onclick="checkoutWhatsApp()"><span data-i18n="checkoutWA">Checkout WhatsApp</span></button>
+        <button class="btn secondary" type="button" onclick="clearCart()"><span data-i18n="clearCart">Vider</span></button>
+      </div>
+      <p class="note" data-i18n="storeNote">Mode PRO: ربط Stripe/Snipcart + تسليم ملفات تلقائي.</p>
+    </div>
+  </aside>
+
+  <a class="wa-float" id="waFloat" href="#" target="_blank" rel="noopener">
+    <span class="wa-badge">WA</span>
+    <div class="wa-text">
+      <b data-i18n="waTitle">WhatsApp</b>
+      <small data-i18n="waSub">Réponse rapide</small>
+    </div>
+  </a>
+
+  <script src="./js/i18n.js"></script>
+  <script src="./js/data.js"></script>
+  <script src="./js/store.js"></script>
+  <script src="./js/app.js"></script>
+  <script src="./js/three-bg.js"></script>
+</body>
+</html>

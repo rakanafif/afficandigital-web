@@ -1,0 +1,36 @@
+{
+  "threads": [
+    {
+      "id": "t1",
+      "category": "Marketing",
+      "title": { "fr": "Pourquoi une marque vend avant le prix", "en": "Why branding sells before price", "ar": "لماذا تبيع الهوية قبل السعر" },
+      "excerpt": { "fr": "La cohérence réduit l’effort mental: confiance ثم قرار.", "en": "Consistency reduces friction: trust then decision.", "ar": "التناسق يقلل التشتت: ثقة ثم قرار." },
+      "body": {
+        "fr": "Une identité cohérente (couleurs, message, preuve) fait vendre avant même le prix.",
+        "en": "A consistent identity (colors, message, proof) sells before price.",
+        "ar": "هوية متناسقة (ألوان، رسالة، إثبات) تجعل البيع يحدث قبل السعر."
+      },
+      "points": {
+        "fr": ["Cohérence visuelle", "Message simple", "Preuves (portfolio/avis)", "CTA clair"],
+        "en": ["Visual consistency", "Simple message", "Proof (portfolio/reviews)", "Clear CTA"],
+        "ar": ["تناسق بصري", "رسالة بسيطة", "إثباتات (أعمال/آراء)", "CTA واضح"]
+      }
+    },
+    {
+      "id": "t2",
+      "category": "Video",
+      "title": { "fr": "Le montage qui retient l’attention en 3 secondes", "en": "Editing that grabs attention in 3 seconds", "ar": "مونتاج يخطف الانتباه خلال 3 ثوانٍ" },
+      "excerpt": { "fr": "Hook + texte + rythme = بقاء.", "en": "Hook + text + rhythm = retention.", "ar": "هوك + نص + إيقاع = بقاء." },
+      "body": {
+        "fr": "Commencez fort, ajoutez un texte court, et coupez بسرعة: l’œil décide قبل العقل.",
+        "en": "Start strong, add short text, cut fast: the eye decides before the mind.",
+        "ar": "ابدأ بقوة، أضف نصًا قصيرًا، وحرّك الإيقاع: العين تقرر قبل العقل."
+      },
+      "points": {
+        "fr": ["Hook visuel", "Texte court", "Coupe rapide", "Fin + CTA"],
+        "en": ["Visual hook", "Short text", "Fast cuts", "End + CTA"],
+        "ar": ["هوك بصري", "نص قصير", "قصات سريعة", "نهاية + CTA"]
+      }
+    }
+  ]
+}

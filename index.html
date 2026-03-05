@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Affican Digital</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<style>
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#0b0b0b;
+color:white;
+text-align:center;
+}
+
+header{
+padding:60px 20px;
+}
+
+.logo{
+width:160px;
+}
+
+h1{
+font-size:40px;
+margin-top:20px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+padding:40px;
+}
+
+.card{
+background:#141414;
+padding:25px;
+border-radius:10px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+background:#1e1e1e;
+}
+
+button{
+padding:12px 25px;
+border:none;
+border-radius:6px;
+background:#00aaff;
+color:white;
+cursor:pointer;
+margin-top:20px;
+}
+
+footer{
+padding:30px;
+opacity:.6;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<img src="logo.png" class="logo">
+
+<h1>Affican Digital</h1>
+
+<p>Marketing digital • Montage vidéo • Création de sites web</p>
+
+<a href="store.html">
+<button>Digital Store</button>
+</a>
+
+</header>
+
+
+<section class="services">
+
+<div class="card">
+<h3>Marketing Digital</h3>
+<p>Promotion professionnelle pour les entreprises et marques.</p>
+</div>
+
+<div class="card">
+<h3>Video Editing</h3>
+<p>Montage vidéo cinématique et publicité.</p>
+</div>
+
+<div class="card">
+<h3>Web Design</h3>
+<p>Création de sites modernes et rapides.</p>
+</div>
+
+<div class="card">
+<h3>Motion Graphics</h3>
+<p>Animations visuelles pour votre marque.</p>
+</div>
+
+</section>
+
+<footer>
+© Affican Digital
+</footer>
+
+</body>
+</html>

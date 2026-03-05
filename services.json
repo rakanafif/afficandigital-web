@@ -1,0 +1,56 @@
+{
+  "services": [
+    {
+      "id": "marketing",
+      "icon": "M",
+      "pill": { "fr": "Stratégie & Ads", "en": "Strategy & Ads", "ar": "استراتيجية وإعلانات" },
+      "title": { "fr": "Marketing Digital", "en": "Digital Marketing", "ar": "تسويق إلكتروني" },
+      "desc": { "fr": "Publicités, SEO, stratégie de contenu et optimisation.", "en": "Ads, SEO, content strategy and optimization.", "ar": "إعلانات، سيو، خطة محتوى وتحسين." },
+      "full": { "fr": "Nous construisons une stratégie claire (SEO + Ads + Contenu) puis nous optimisons pour des résultats mesurables.", "en": "We build a clear strategy (SEO + Ads + Content) and optimize for measurable results.", "ar": "نضع استراتيجية واضحة (سيو + إعلانات + محتوى) ثم نحسن للحصول على نتائج ملموسة." },
+      "bullets": {
+        "fr": ["Audit & stratégie", "Meta/Google Ads", "SEO & contenu", "Reporting & optimisation"],
+        "en": ["Audit & strategy", "Meta/Google Ads", "SEO & content", "Reporting & optimization"],
+        "ar": ["تحليل وخطة", "إعلانات ممولة", "سيو ومحتوى", "تقارير وتحسين"]
+      }
+    },
+    {
+      "id": "video",
+      "icon": "V",
+      "pill": { "fr": "Reels & Promo", "en": "Reels & Promo", "ar": "ريلز وبرومو" },
+      "title": { "fr": "Montage Vidéo Professionnel", "en": "Professional Video Editing", "ar": "مونتاج احترافي" },
+      "desc": { "fr": "Vidéos promos, shorts, stories — rythme et impact.", "en": "Promos, shorts, stories — rhythm and impact.", "ar": "فيديوهات برومو وشورتس — إيقاع وتأثير." },
+      "full": { "fr": "Montage dynamique + couleurs + titrage + sound design pour محتوى يثبت في الذاكرة.", "en": "Dynamic editing + color + titles + sound design for memorable content.", "ar": "مونتاج ديناميكي + ألوان + عناوين + صوت لنتيجة قوية." },
+      "bullets": {
+        "fr": ["Reels/Shorts/YouTube", "Motion & titres", "Color & sound", "Export multi-formats"],
+        "en": ["Reels/Shorts/YouTube", "Motion & titles", "Color & sound", "Multi-format export"],
+        "ar": ["ريلز/شورتس/يوتيوب", "موشن وعناوين", "ألوان وصوت", "تصدير مقاسات متعددة"]
+      }
+    },
+    {
+      "id": "web",
+      "icon": "W",
+      "pill": { "fr": "Rapide & SEO", "en": "Fast & SEO", "ar": "سريع وSEO" },
+      "title": { "fr": "Création de Sites Web", "en": "Website Creation", "ar": "تصميم مواقع" },
+      "desc": { "fr": "Sites modernes, rapides et optimisés conversion.", "en": "Modern, fast, conversion-optimized sites.", "ar": "مواقع حديثة وسريعة ومحسنة للتحويل." },
+      "full": { "fr": "Landing pages و مواقع شركة بأسلوب عالمي، مع SEO أساسي وسرعة عالية.", "en": "Company sites & landing pages with global style, basic SEO and high speed.", "ar": "صفحات هبوط ومواقع شركة بجودة عالية مع سيو وسرعة." },
+      "bullets": {
+        "fr": ["UI/UX design", "Responsive", "Pages خدمات/أعمال", "SEO + performance"],
+        "en": ["UI/UX design", "Responsive", "Services/portfolio", "SEO + performance"],
+        "ar": ["تصميم UI/UX", "متجاوب", "صفحات خدمات/أعمال", "سيو وسرعة"]
+      }
+    },
+    {
+      "id": "design",
+      "icon": "D",
+      "pill": { "fr": "Posts & Branding", "en": "Posts & Branding", "ar": "بوستات وهوية" },
+      "title": { "fr": "Design Graphique", "en": "Graphic Design", "ar": "تصميم بوستات وجرافيك" },
+      "desc": { "fr": "Visuels propres pour réseaux sociaux et campagnes.", "en": "Clean visuals for social and campaigns.", "ar": "تصاميم نظيفة للسوشيال والحملات." },
+      "full": { "fr": "Nous créons des templates و نظام تصميم متناسق يعكس هويتك.", "en": "We create templates and a consistent visual system for your brand.", "ar": "نصنع قوالب ونظام تصميم متناسق يعكس هويتك." },
+      "bullets": {
+        "fr": ["Templates", "Posts/Stories", "Bannières", "Brand consistency"],
+        "en": ["Templates", "Posts/Stories", "Banners", "Brand consistency"],
+        "ar": ["قوالب", "بوستات/ستوري", "بنرات", "تناسق الهوية"]
+      }
+    }
+  ]
+}

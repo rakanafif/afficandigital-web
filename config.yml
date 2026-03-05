@@ -1,0 +1,129 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "services"
+    label: "Services"
+    files:
+      - file: "content/services.json"
+        label: "Services Data"
+        name: "servicesdata"
+        fields:
+          - label: "services"
+            name: "services"
+            widget: "list"
+            fields:
+              - {label: "id", name: "id", widget: "string"}
+              - {label: "icon", name: "icon", widget: "string"}
+              - label: "pill"
+                name: "pill"
+                widget: "object"
+                fields:
+                  - {label: "fr", name: "fr", widget: "string"}
+                  - {label: "en", name: "en", widget: "string"}
+                  - {label: "ar", name: "ar", widget: "string"}
+              - label: "title"
+                name: "title"
+                widget: "object"
+                fields:
+                  - {label: "fr", name: "fr", widget: "string"}
+                  - {label: "en", name: "en", widget: "string"}
+                  - {label: "ar", name: "ar", widget: "string"}
+              - label: "desc"
+                name: "desc"
+                widget: "object"
+                fields:
+                  - {label: "fr", name: "fr", widget: "text"}
+                  - {label: "en", name: "en", widget: "text"}
+                  - {label: "ar", name: "ar", widget: "text"}
+              - label: "full"
+                name: "full"
+                widget: "object"
+                fields:
+                  - {label: "fr", name: "fr", widget: "text"}
+                  - {label: "en", name: "en", widget: "text"}
+                  - {label: "ar", name: "ar", widget: "text"}
+              - label: "bullets"
+                name: "bullets"
+                widget: "object"
+                fields:
+                  - {label: "fr", name: "fr", widget: "list"}
+                  - {label: "en", name: "en", widget: "list"}
+                  - {label: "ar", name: "ar", widget: "list"}
+
+  - name: "products"
+    label: "Products"
+    files:
+      - file: "content/products.json"
+        label: "Products Data"
+        name: "productsdata"
+        fields:
+          - label: "products"
+            name: "products"
+            widget: "list"
+            fields:
+              - {label: "id", name: "id", widget: "string"}
+              - {label: "category", name: "category", widget: "string"}
+              - {label: "price", name: "price", widget: "number"}
+              - {label: "image", name: "image", widget: "string"}
+              - label: "title"
+                name: "title"
+                widget: "object"
+                fields:
+                  - {label: "fr", name: "fr", widget: "string"}
+                  - {label: "en", name: "en", widget: "string"}
+                  - {label: "ar", name: "ar", widget: "string"}
+              - label: "instant"
+                name: "instant"
+                widget: "object"
+                fields:
+                  - {label: "fr", name: "fr", widget: "string"}
+                  - {label: "en", name: "en", widget: "string"}
+                  - {label: "ar", name: "ar", widget: "string"}
+
+  - name: "threads"
+    label: "Threads"
+    files:
+      - file: "content/threads.json"
+        label: "Threads Data"
+        name: "threadsdata"
+        fields:
+          - label: "threads"
+            name: "threads"
+            widget: "list"
+            fields:
+              - {label: "id", name: "id", widget: "string"}
+              - {label: "category", name: "category", widget: "string"}
+              - label: "title"
+                name: "title"
+                widget: "object"
+                fields:
+                  - {label: "fr", name: "fr", widget: "string"}
+                  - {label: "en", name: "en", widget: "string"}
+                  - {label: "ar", name: "ar", widget: "string"}
+              - label: "excerpt"
+                name: "excerpt"
+                widget: "object"
+                fields:
+                  - {label: "fr", name: "fr", widget: "text"}
+                  - {label: "en", name: "en", widget: "text"}
+                  - {label: "ar", name: "ar", widget: "text"}
+              - label: "body"
+                name: "body"
+                widget: "object"
+                fields:
+                  - {label: "fr", name: "fr", widget: "text"}
+                  - {label: "en", name: "en", widget: "text"}
+                  - {label: "ar", name: "ar", widget: "text"}
+              - label: "points"
+                name: "points"
+                widget: "object"
+                fields:
+                  - {label: "fr", name: "fr", widget: "list"}
+                  - {label: "en", name: "en", widget: "list"}
+                  - {label: "ar", name: "ar", widget: "list"}
+                  - {label: "ar", name: "ar", widget: "list"}
